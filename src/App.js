@@ -60,7 +60,7 @@ const  App=()=>{
         />
         <NavBar />
         <Routes>
-        <Route path="/Nova-Fusion" element={<Home />} />
+        
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:id" element={<Product />} />
